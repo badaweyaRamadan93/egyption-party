@@ -1,0 +1,105 @@
+#home{
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#home .home-overlay{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51 , 0.6);
+}
+.home-content{
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translate(-45% , -45%);
+}
+.open{
+  left: 0;
+}
+.left-menue{
+  width: 18%;
+}
+#closeBtn{
+  right: 10px;
+  top: 10px;
+}
+aside ul li{
+  margin: 25px 0;
+}
+aside a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.5s;
+}
+aside a:hover{
+  color: rgba(214, 46, 51 , 0.4);
+}
+
+/* start  singeer section */
+.singeer{
+  color: white;
+  background-color: rgba(214, 46, 51 , 0.6);
+  font-size: 20px;
+  cursor: pointer;
+}
+.singer-caption , .singeer{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+.singer-caption{
+  background-color: #ccc;
+  display: none;
+}
+/* start count  section */
+#duration{
+  background-image: url(../images/count.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 230px;
+}
+#duration .count-over-lay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #d62e3399;
+}
+.time{
+  border: 1px solid #fff;
+  padding: 50px;
+}
+
+/* start contact section */
+.contact-social i{
+  margin: 40px 10px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.contact-social i:hover{
+  background-color: #D62E33;
+  border: 1px solid #D62E33;
+  color: #fff;
+}
+.form-control:focus{
+  border: #D62E33 1px solid;
+  box-shadow: 0 0 0 4px rgba(214, 46, 51 , 0.6);
+}
